@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: dimgray;
+            padding: 3px;
+            box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.525);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 3px;
+            margin: auto;
+            }
+        nav > a :hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 0px 3px rgba(0, 0, 0, 0.263);
+        }
+        article {
+            background-color: dimgray;
+            padding: 2px;
+        }
+        article > aside {
+            background-color: lightgray;
+            padding: 1px;
+        }
+
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px auto 10px auto;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+   <h1>Meu site</h1>
+   <nav>
+       <a href="#">Atualidades</a>
+       <a href="#">Entrevistas</a>
+       <a href="#">Infomes</a>
+       <a href="#">Viral</a>
+       <a href="#">Clima</a>
+   </nav>
+</header>
+
+<main>
+   <section id="assuntos">
+      <article>
+         <h2>Eleições 2024</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae asperiores nostrum quo officia dicta cum consequuntur consectetur voluptates voluptatum iure totam commodi provident cumque facere, et dolores sed ipsum nulla.</p>
+      </article>
+   </section>
+   <section id="notícias">
+       <article>
+           <h2> Notícias sobre Cabrobó</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis consectetur expedita recusandae provident vero doloribus quod. Itaque voluptatibus totam nisi quae fugiat ea incidunt facere libero! Quos illum perferendis voluptatibus.</p>
+          <aside>
+             <p>Artigo escrito por Gabriel Alves</p>
+          </aside>
+       </article>
+
+   </section>
+</main>
+
+<footer>
+   <p>Desenvolvido por Gabriel Alves dos Santos</p>
+</footer>
+    <div id="bola"></div>
+</body>
+</html>
