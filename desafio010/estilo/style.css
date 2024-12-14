@@ -2,11 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* Arquivo externo*/
 
-@font-face {
-    font-family: 'Android';
-    src: url('../fontes/idroid.otf')  format('opentype');
-    font-weight: normal; /*Arquivo Interno*/
-}
+    @font-face {
+        font-family: 'Android';
+        src: url('/desafio010/fontes/idroid.otf') format('opentype');
+        font-weight: normal;
+    } /*Arquivo Interno*/
+
 
 :root {
     /*Configurações Globais*/
@@ -19,7 +20,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: "Bebas Neue", sans-serif;
-    --fonte-android: 'Android';
+    --fonte-android: 'Android', "Bebas Neue", sans-serif;
 }
 
 * {  /*Configurações Globais*/
